@@ -12,7 +12,7 @@ function addElementToBeginningOfArray(array,element) {
     'Marissa'
     ];
   [...catsPajamas,
-    'Kendall']  
+    'Kendall'];  
 }
 
 function destructivelyAddElementToBeginningOfArray(array,element) {
@@ -23,4 +23,49 @@ function destructivelyAddElementToBeginningOfArray(array,element) {
     'Lil Timmy Tim'
     ];
     timmyTim.unshift('Timothee');
+}
+
+function addElementToEndOfArray(array,element) {
+  var musicians = [
+    'Borns',
+    'Drake',
+    'Cardi B',
+    'Muna',
+    'Jack Antnoff'
+    ];
+    [...musicians, 
+    'Wet'];
+}
+
+function destructivelyAddElementToEndOfArray(array,element) {
+  var newYorkCity = [
+    'Manhattan',
+    'Bronx',
+    'Brooklyn',
+    'Queens',
+    'Staten Island'
+    ];
+    newYorkCity.unshift('Harlem');
+}
+
+function accessElementInArray() {
+  var movies = [
+    'CMBYN',
+    'Love, Simon',
+    'Breakfast Club',
+    '10 Things I Hate About You',
+    'Funny Face',
+    'Breakfast At Tiffanys'
+    ];
+    movies[4];
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  var bands = [
+    'Bleachers',
+    'Nirvana',
+    'Pink Floyd',
+    'Taylor Swift'
+    ];
+    return bands;
 }
