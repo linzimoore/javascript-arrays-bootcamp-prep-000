@@ -69,3 +69,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
     ];
     return bands;
 }
+
+function removeElementFromBeginningOfArray(array) {
+  
+}
