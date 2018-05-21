@@ -78,9 +78,19 @@ function removeElementFromBeginningOfArray(array) {
     'cute'
     ]
     
-    return words.slice(1);
+    return words.slice(0);
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
-  
+  var marriage = [
+    'bridesmaid',
+    'photographer',
+    'photos',
+    'rings',
+    'suits',
+    'wedding dress'
+    ]
+    return marriage.slice(0, iceCreams.length - 1);
 }
+
+function 
