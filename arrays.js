@@ -71,5 +71,16 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 }
 
 function removeElementFromBeginningOfArray(array) {
+  var words = [
+    'decaf',
+    'here',
+    'wild heart',
+    'cute'
+    ]
+    
+    return words.slice(1);
+}
+
+function destructivelyRemoveElementFromEndOfArray(array) {
   
 }
