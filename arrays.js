@@ -93,4 +93,13 @@ function destructivelyRemoveElementFromEndOfArray(array) {
     return marriage.slice(0, iceCreams.length - 1);
 }
 
-function 
+function removeElementFromEndOfArray(array) {
+  var australia = [
+    'Aussies',
+    'Gooday Mate',
+    'Glee Coffee',
+    'Beach',
+    'Kangaroos'
+    ]
+    return australia.slice(-1);
+}
